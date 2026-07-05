@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASR CREATIVE AGENCY</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <!-- Style -->
+  <style>
+    .hero {
+      background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(img/background.png);
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+      color: white;
+      display: flex;
+      align-items: center;
+    }
+    .icon-box {
+      font: 2px;
+      color: #0d6efd;
+      border-radius: 50%;
+      border-color: #0d6efd;
+    }
+
+    .service:hover {
+      transform: translateY(-10px);
+      transition: 0.5s;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+  </style>
+  <!-- Body -->
+  <body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand display fw-bold" href="#"
+          ><span class="text-warning">A</span
+          ><span class="text-primary">SR</span>
+          <span class="text-danger">CREATIVE AGENCY</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="text-light fw-bold" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#services">Services</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Session -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fw-bold">
+              Grow Your Brand With Powerful Digital Solutions
+            </h1>
+
+            <p class="lead mt-4">
+              We help businesses grow through Digital Marketing, Graphic Design,
+              and Professional Video Editing.
+            </p>
+
+            <div class="mt-4">
+              <a href="#services" class="btn btn-primary btn-lg me-3">
+                Our Services
+              </a>
+
+              <a href="#contact" class="btn btn-outline-light btn-lg">
+                Get Started
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img
+              src="img/office pic 111.jpg"
+              alt="office photo"
+              class="img-fluid rounded shadow-lg mt-5"
+            />
+          </div>
+          <div class="col-lg-6">
+            <div class="mb-4 mt-4">
+              <h3 class="fw-bold display-5">About Us</h3>
+              <p class="text-muted fs-5">
+                ASR Creative Agency delivers innovative digital solutions,
+                including web design, branding, graphic design, and digital
+                marketing. We help businesses build a strong online presence and
+                grow with confidence.
+              </p>
+              <p class="text-muted fs-5">
+                We create modern websites, eye-catching designs, and effective
+                digital marketing strategies that help businesses stand out. Our
+                mission is to turn your ideas into impactful digital
+                experiences.
+              </p>
+              <div class="row mt-5">
+                <div class="col-5">
+                  <h4 class="text-primary mb-2 fw-bold fs-3">250+</h4>
+                  <p>Projects Completed</p>
+                </div>
+                <div class="col-6">
+                  <h4 class="text-primary mb-2 fw-bold fs-3">120+</h4>
+                  <p>Happy Clients</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our service -->
+    <section id="services" class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold display-5">Our Services</h2>
+          <p class="text-muted fs-5">
+            We offer a wide range of services to help your business grow.
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0 service">
+              <div class="card-body text-center">
+                <i
+                  class="bi bi-laptop-fill icon-box fs-1 text-primary mb-3"
+                ></i>
+                <h5 class="card-title fw-bold">Web Development</h5>
+                <p class="card-text text-muted">
+                  We build responsive and modern websites that help your
+                  business stand out online.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0 service">
+              <div class="card-body text-center">
+                <i class="bi bi-phone-fill fs-1 text-primary mb-3"></i>
+                <h5 class="card-title fw-bold">Mobile App Development</h5>
+                <p class="card-text text-muted">
+                  We create user-friendly mobile applications for both iOS and
+                  Android platforms.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0 service">
+              <div class="card-body text-center">
+                <i class="bi bi-bar-chart-fill fs-1 text-primary mb-3"></i>
+                <h5 class="card-title fw-bold">Digital Marketing</h5>
+                <p class="card-text text-muted">
+                  Our digital marketing strategies help you reach a wider
+                  audience and grow your business.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Stats Section -->
+    <section class="stats-section py-5 bg-primary">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-3">
+            <h2 class="fw-bold">500K+</h2>
+            <p>Social Reach</p>
+          </div>
+
+          <div class="col-md-3">
+            <h2 class="fw-bold">350+</h2>
+            <p>Campaigns Managed</p>
+          </div>
+
+          <div class="col-md-3">
+            <h2 class="fw-bold">98%</h2>
+            <p>Client Satisfaction</p>
+          </div>
+
+          <div class="col-md-3">
+            <h2 class="fw-bold">24/7</h2>
+            <p>Support</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section -->
+    <section class="py-5" id="portfolio">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="section-title">Our Portfolio</h2>
+          <p>A glimpse of some creative projects we have worked on.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <img
+              src="img/laptp 20.jpg"
+              class="portfolio-img img-fluid"
+              alt="Project 1"
+            />
+          </div>
+
+          <div class="col-md-4">
+            <img
+              src="img/laoptop 23.jpg"
+              class="portfolio-img"
+              alt="Project 2"
+            />
+          </div>
+
+          <div class="col-md-4">
+            <img src="img/laptp 20.jpg" class="portfolio-img" alt="Project 3" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold display-5">Contact Us</h2>
+          <p class="text-muted fs-5">
+            We would love to hear from you. Get in touch for projects,
+            collaborations, or any questions.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-5">
+            <div class="card shadow-sm border-0 h-100">
+              <div class="card-body">
+                <h4 class="fw-bold mb-4">Our Details</h4>
+                <p class="mb-3">
+                  <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                  AZAD NAGAR @ND CROSS BHATKAL,KARNATAKA-581320
+                </p>
+                <p class="mb-3">
+                  <i class="bi bi-telephone-fill text-primary me-2"></i>
+                  +91 7204414130
+                </p>
+                <p class="mb-3">
+                  <i class="bi bi-envelope-fill text-primary me-2"></i>
+                  abubakarrukz@gmail.com
+                </p>
+                <p class="mb-3">
+                  <i class="bi bi-clock-fill text-primary me-2"></i>
+                  24/7
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="card shadow-sm border-0 h-100">
+              <div class="card-body">
+                <h4 class="fw-bold mb-4">Send Us a Message</h4>
+                <form
+                  action="https://formspree.io/f/mojoevdr"
+                  method="POST"
+                  class="shadow p-4 rounded-3 mx-auto"
+                >
+                  <input
+                    type="hidden"
+                    name="_subject"
+                    value="New contact request"
+                  />
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <input
+                        type="text"
+                        name="name"
+                        class="form-control"
+                        placeholder="Your Name"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <input
+                        type="email"
+                        name="_replyto"
+                        class="form-control"
+                        placeholder="Your Email"
+                        required
+                      />
+                    </div>
+                    <div class="col-12">
+                      <input
+                        type="text"
+                        name="subject"
+                        class="form-control"
+                        placeholder="Subject"
+                        required
+                      />
+                    </div>
+                    <div class="col-12">
+                      <textarea
+                        name="message"
+                        class="form-control"
+                        rows="5"
+                        placeholder="Write your message..."
+                        required
+                      ></textarea>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit">
+                        Send Message
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-black text-white text-center p-3">
+      <p>© 2026 ASR creative agency</p>
+      <a href="#top" class="text-white">Back to Top</a>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
